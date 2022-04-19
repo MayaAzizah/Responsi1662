@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--    <ImageView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        -->
+
+    <ImageView
+        android:id="@+id/gambar1"
+        android:layout_width="221dp"
+        android:layout_height="181dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-32dp"
+        android:layout_marginTop="-51dp"
+        android:src="@drawable/bg" />
+
+    <TextView
+        android:id="@+id/txt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:layout_below="@id/gambar1"
+        android:fontFamily="@font/bold"
+        android:text="Sangu.id"
+        android:textSize="30sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/txt_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_1"
+        android:fontFamily="@font/semibold"
+        android:gravity="center"
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:text="Sangu.id adalah aplikasi untuk mengatur keuangan. Sangu.id sangat bermanfaat bagi anda yang sulit untuk mengatur keunganan baik harian, minggu, ataupun perbulannya"
+        android:textColor="@color/black" />
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_login1"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/txt_2"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:width="300dp"-->
+<!--        android:background="@drawable/button_shape"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:fontFamily="@font/bold"-->
+<!--        android:text="LOGIN"-->
+
+<!--        android:textSize="14dp" />-->
+
+    <Button
+        android:id="@+id/btn_register1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_2"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:width="300dp"
+        android:textColor="@color/black"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/bold"
+        android:text="NEXT"
+        android:textSize="14dp" />
+
+</RelativeLayout>
